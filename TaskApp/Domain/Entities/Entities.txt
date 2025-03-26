@@ -1,0 +1,9 @@
+🟨 1. Entities/
+
+O que são?
+São os modelos puros de negócio, que representam os elementos centrais do app.
+
+Características:
+Simples, apenas dados (sem lógica de apresentação)
+Não conhecem UI, banco de dados, nem JSON
+Devem ser independentes de qualquer framework

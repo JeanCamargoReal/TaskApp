@@ -1,0 +1,8 @@
+🧠 O que é a Camada de Domain?
+
+A Domain Layer (ou Camada de Domínio) é o coração do seu app. É onde mora a regra de negócio — aquilo que não depende de tecnologia, framework ou detalhes técnicos.
+
+⚙️ É o que define o que seu app faz, não como ele faz.
+Se você trocasse de banco de dados, API, ou até mesmo migrasse de iOS para Android — o domínio deveria continuar igual.
+
+

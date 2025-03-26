@@ -1,0 +1,8 @@
+🧠 O que é a Camada de Dados?
+
+Essa camada é responsável por:
+
+Buscar, salvar, atualizar e deletar dados;
+Falar com banco de dados, API, arquivos, etc;
+Implementar os contratos (protocolos) definidos na camada Domain;
+Ela é a ponte entre o domínio e as tecnologias usadas.

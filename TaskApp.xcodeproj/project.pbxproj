@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C5B90D132D942EA4003A46C1 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = C5B90D112D942EA4003A46C1 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		C5B90CE82D942D81003A46C1 /* TaskApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5B90D112D942EA4003A46C1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C5D78F272D944D2600C9ECEA /* TaskApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -33,16 +38,9 @@
 			isa = PBXGroup;
 			children = (
 				C5B90CEA2D942D81003A46C1 /* TaskApp */,
-				C5B90CE92D942D81003A46C1 /* Products */,
+				C5B90D112D942EA4003A46C1 /* README.md */,
+				C5D78F272D944D2600C9ECEA /* TaskApp.app */,
 			);
-			sourceTree = "<group>";
-		};
-		C5B90CE92D942D81003A46C1 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C5B90CE82D942D81003A46C1 /* TaskApp.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -67,7 +65,7 @@
 			packageProductDependencies = (
 			);
 			productName = TaskApp;
-			productReference = C5B90CE82D942D81003A46C1 /* TaskApp.app */;
+			productReference = C5D78F272D944D2600C9ECEA /* TaskApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -95,7 +93,7 @@
 			mainGroup = C5B90CDF2D942D81003A46C1;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = C5B90CE92D942D81003A46C1 /* Products */;
+			productRefGroup = C5B90CDF2D942D81003A46C1;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -119,6 +117,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5B90D132D942EA4003A46C1 /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

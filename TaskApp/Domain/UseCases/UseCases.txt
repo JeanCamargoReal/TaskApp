@@ -1,0 +1,26 @@
+🧠 O que é um Use Case?
+
+Use Cases representam ações do mundo real que o usuário faz no app.
+(Representam ações que o app realiza, com base nas regras de negócio.)
+
+Cada use case:
+Tem uma única responsabilidade
+Executa uma ação específica (listar, adicionar, deletar…)
+Depende apenas de protocolos
+
+🗂️ Onde Criar?
+
+Crie os arquivos dentro da pasta:
+Domain/UseCases/
+
+
+💬 Explicações
+
+- Por que cada Use Case é uma struct?
+Porque são apenas orquestradores — não guardam estado, só recebem dependências e executam ações.
+
+- Por que usamos TaskRepository (protocolo)?
+Assim, nossa camada de domínio não sabe nem se os dados vêm do banco, UserDefaults ou API. Isolamento total.
+
+- Nome do método sempre execute()?
+Sim, por padrão, mas você pode usar nomes mais expressivos se preferir (run(), perform(), etc).

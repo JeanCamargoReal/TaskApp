@@ -1,0 +1,6 @@
+🟨 3. Repositories/
+
+O que são?
+São interfaces (protocolos) que definem o contrato entre o domínio e o resto do app (dados, rede, banco etc.).
+
+A camada de domínio nunca implementa um repositório. Ela define o que precisa — e alguém de fora (camada de dados) fornece a implementação.
