@@ -1,1 +1,45 @@
 
+🧠 O que é a Camada de Domain?
+
+A Domain Layer (ou Camada de Domínio) é o coração do seu app. É onde mora a regra de negócio — aquilo que não depende de tecnologia, framework ou detalhes técnicos.
+
+⚙️ É o que define o que seu app faz, não como ele faz.
+Se você trocasse de banco de dados, API, ou até mesmo migrasse de iOS para Android — o domínio deveria continuar igual.
+
+
+---------------------------------------------------------------------------------
+
+
+🧠 O que é a Camada de Apresentação?
+
+Essa camada é responsável por:
+
+Mostrar os dados para o usuário (UI);
+Reagir a interações (toques, botões, etc);
+Comunicar com os UseCases (nunca direto com repositórios);
+
+---------------------------------------------------------------------------------
+
+
+🧠 O que é a Camada de Dados?
+
+Essa camada é responsável por:
+
+Buscar, salvar, atualizar e deletar dados;
+Falar com banco de dados, API, arquivos, etc;
+Implementar os contratos (protocolos) definidos na camada Domain;
+Ela é a ponte entre o domínio e as tecnologias usadas.
+
+---------------------------------------------------------------------------------
+
+
+🧠 O que é Injeção de Dependência?
+
+É o ato de passar as dependências que um objeto precisa em vez de ele criar por conta própria.
+
+Por exemplo, em vez do ViewModel criar o UseCase, a gente injeta ele pronto.
+
+Benefícios:
+Facilita testes (você injeta mocks)
+Mantém desacoplamento
+Torna a arquitetura mais limpa
