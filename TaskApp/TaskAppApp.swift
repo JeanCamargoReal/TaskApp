@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct TaskAppApp: App {
+    let diContainer = AppDIContainer()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            diContainer.makeTaskListView()
         }
     }
 }
