@@ -1,0 +1,7 @@
+🧠 O que é a Camada de Apresentação?
+
+Essa camada é responsável por:
+
+Mostrar os dados para o usuário (UI);
+Reagir a interações (toques, botões, etc);
+Comunicar com os UseCases (nunca direto com repositórios);
