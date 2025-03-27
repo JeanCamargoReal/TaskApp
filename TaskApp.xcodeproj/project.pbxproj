@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C51139C32D958489003376AB /* Overview do Projeto.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C51139C22D958489003376AB /* Overview do Projeto.pdf */; };
 		C5B90D132D942EA4003A46C1 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = C5B90D112D942EA4003A46C1 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C51139C22D958489003376AB /* Overview do Projeto.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Overview do Projeto.pdf"; sourceTree = "<group>"; };
 		C5B90D112D942EA4003A46C1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C5D78F272D944D2600C9ECEA /* TaskApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -40,6 +42,7 @@
 				C5B90CEA2D942D81003A46C1 /* TaskApp */,
 				C5B90D112D942EA4003A46C1 /* README.md */,
 				C5D78F272D944D2600C9ECEA /* TaskApp.app */,
+				C51139C22D958489003376AB /* Overview do Projeto.pdf */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +110,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C51139C32D958489003376AB /* Overview do Projeto.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
