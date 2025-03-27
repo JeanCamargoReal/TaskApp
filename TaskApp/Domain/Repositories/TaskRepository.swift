@@ -5,6 +5,8 @@
 //  Created by Jean Camargo on 26/03/25.
 //
 
+/// Contrato de repositório
+
 import Foundation
 
 protocol TaskRepository {

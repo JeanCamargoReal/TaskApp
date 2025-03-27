@@ -5,6 +5,8 @@
 //  Created by Jean Camargo on 26/03/25.
 //
 
+/// Entidade central da aplicação
+
 import Foundation
 
 struct Task: Identifiable, Equatable {
